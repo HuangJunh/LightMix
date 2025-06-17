@@ -10,7 +10,7 @@ Specify the hyperparameters for multi-objective evolutionary search and the targ
 ```shell
 python main.py --gpu 0
 ```
-## Train and Test the Searched Model
+## Train and Test the Searched Architectures
 Specify the hyperparameters for training in `main.py` and the target script name under `./scripts` after architecture search.  
 ```shell
 python main.py --test --gpu 0 --script_name 'indi-1_00'
